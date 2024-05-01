@@ -1,4 +1,6 @@
 
 export const test = (req,res)=>{
-    res.send("yo!! api is working just fine");
-}
+    res.json({
+        message:"This api is working fine"
+    });
+};
