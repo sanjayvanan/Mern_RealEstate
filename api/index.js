@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO)
 const app = express();
 
 
-//we are allowing the server to accecpt json
+//we are allowing the server to accept json
 app.use(express.json());
 
 //routes for users
