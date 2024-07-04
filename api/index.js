@@ -43,6 +43,6 @@ app.use((err, req, res, next)=>{
 
 
 app.listen(process.env.PORT,()=>{
-console.log(`ruuning in the port ${process.env.PORT}!!!!!!!!`);
+console.log(`running in the port ${process.env.PORT}!!!!!!!!`);
 
 });
