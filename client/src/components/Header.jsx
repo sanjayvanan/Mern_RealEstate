@@ -6,10 +6,17 @@ export default function Header() {
     <header className='bg-slate-200 shadow-md'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
-          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-slate-500'>Sanjay</span>
-            <span className='text-slate-700'>Estate</span>
-          </h1>
+          <div className='flex items-center'>
+            <img 
+              src='https://img.icons8.com/?size=100&id=00NRml63UH6j&format=png&color=000000' 
+              alt='icon' 
+              className='h-6 w-6 mr-2'
+            />
+            <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
+              <span className='text-slate-500'>Sanjay</span>
+              <span className='text-slate-700'>Estate</span>
+            </h1>
+          </div>
         </Link>
         <form className='bg-slate-100 p-3 rounded-lg flex items-center'>
           <input
@@ -33,7 +40,6 @@ export default function Header() {
           <Link to='/sign-in'>
             <li className=' text-slate-700 hover:underline'> Sign in</li>
           </Link>
-
         </ul>
       </div>
     </header>
